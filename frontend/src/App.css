@@ -1,0 +1,26 @@
+/*----------------------Navbar----------------------------*/
+.navbar-brand span{
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: serif;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.navitemstyle{
+    font-size: 1.15rem; 
+    color: white !important;
+    padding: 5px;
+}
+.navitemstyle:hover{
+    background-color: white ;
+    color: black !important;
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 518px){
+    .navitemstyle{
+        margin-left: 10px;
+        margin-top: 7px;
+    }
+}
